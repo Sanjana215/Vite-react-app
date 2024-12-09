@@ -79,7 +79,7 @@ export default function Main()
         <>
         <main>
             
-           {gamewon && <Confetti  width={width} height={height} gravity={1.0}/>}
+           {gamewon && <Confetti  width={width} height={height}/>}
            
             <div className="border-box">
                  {gamewon && <h2 className="wontxt">Congragulations!! You Won.</h2>} 
