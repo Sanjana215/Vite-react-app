@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+main {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: #0B2434;
+}
+
+main > div {
+    height: 100%;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-box > div {
+    height: 250px;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.border-box > div > button {
+    height: 80px;
+    width: 80px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.border-box > div > button:active {
+    box-shadow: 0px 0px 15px 3px rgba(80, 53, 255, 0.7);
+    transform: scale(0.95);
+    border: 2px solid #5035ff;
+}
+
+.roll {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5035ff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.roll:hover {
+    border: 2px solid white;
+    transform: scale(1.05);
+}
+
+.roll {
+    height: 40px;
+    width: 100px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #5035ff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.roll:hover {
+    border: 2px solid white;
+}
+
+.roll:active {
+    background-color: #372dc9;
+    transform: scale(0.95);
+    transition: all 0.2s ease-in-out;
+}
+
+.border-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.border-box > section > h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.border-box > section {
+    font-size: 1.2rem;
+}
+.wontext{
+    text-align: center;
+}
